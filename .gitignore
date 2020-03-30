@@ -19,8 +19,5 @@ coverage/
 *.swp
 *.swo
 
-# secrets
-config.js
-
 # Database Files
 db/
