@@ -1,0 +1,39 @@
+{
+  "name": "wheel-of-fortune",
+  "version": "1.0.0",
+  "description": "The A team hackathon 2020 project",
+  "main": "app.js",
+  "scripts": {
+    "start": "./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badal-moradia/telnyx_hackaton_2020_A_Team.git.git"
+  },
+  "keywords": [
+    "winner"
+  ],
+  "author": "The A team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badal-moradia/telnyx_hackaton_2020_A_Team.git/issues"
+  },
+  "homepage": "https://github.com/badal-moradia/telnyx_hackaton_2020_A_Team.git#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "node-cache": "^5.1.0",
+    "pug": "2.0.0-beta11",
+    "sqlite3": "^4.1.1",
+    "telnyx": "^1.7.1",
+    "unique-names-generator": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
