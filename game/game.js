@@ -162,7 +162,7 @@ function close() {
     return true
   }
 
-  if(game,e.winners.length > 0) {
+  if(game.winners.length > 0) {
     // TODO: Work on implementing logic to save winners to the DB for future games
 
     // const winner = game.winners[0]
