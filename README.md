@@ -41,13 +41,13 @@ A board that's shown to the players with a word or phrase, except all the charac
 The backend has 4 endpoints:
 
 - Telnyx Webhooks (inbound messages) (POST /webhook)
-i. Where inbound webhooks from players are received
+    -  Where inbound webhooks from players are received
 - Telnyx admin Webhooks (admin) (POST /admin-webhook)
-i. Where inbound webhooks from the admin are received.
+    - Where inbound webhooks from the admin are received.
 - Uncover new letter (frontend) (POST /data/letter)
-i.  The front-end also polls the `/data/letter` endpoint every 15 seconds to get a new letter.
+    - The front-end also polls the `/data/letter` endpoint every 15 seconds to get a new letter.
 - Polling endpoint (frontend) (GET /data/meta)
-i. The front-end polls the `/data/meta` endpoint every second to get information about new winners and if the game has ended.
+    - The front-end polls the `/data/meta` endpoint every second to get information about new winners and if the game has ended.
 
 
 
